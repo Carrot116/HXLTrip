@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HXLBannerImageView">
+            <rect key="frame" x="0.0" y="0.0" width="362" height="124"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="Cgu-jD-3Ii">
+                    <rect key="frame" x="0.0" y="0.0" width="362" height="124"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="74t-aa-9kI">
+                        <size key="itemSize" width="5" height="5"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+                <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="2PS-cw-1UE">
+                    <rect key="frame" x="162" y="77" width="39" height="37"/>
+                </pageControl>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Cgu-jD-3Ii" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="PsW-QW-PNG"/>
+                <constraint firstAttribute="bottom" secondItem="2PS-cw-1UE" secondAttribute="bottom" constant="10" id="Sga-qp-sDg"/>
+                <constraint firstAttribute="trailing" secondItem="Cgu-jD-3Ii" secondAttribute="trailing" id="Yyq-Me-zcg"/>
+                <constraint firstAttribute="bottom" secondItem="Cgu-jD-3Ii" secondAttribute="bottom" id="hVz-7g-yKO"/>
+                <constraint firstItem="2PS-cw-1UE" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="lej-Mb-75H"/>
+                <constraint firstItem="Cgu-jD-3Ii" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="yOt-WE-D0d"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="collectionView" destination="Cgu-jD-3Ii" id="v5U-eC-nTe"/>
+                <outlet property="pagecontrol" destination="2PS-cw-1UE" id="p0M-SV-n6n"/>
+            </connections>
+            <point key="canvasLocation" x="325" y="270"/>
+        </view>
+    </objects>
+</document>

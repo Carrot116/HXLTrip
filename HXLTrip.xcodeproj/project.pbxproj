@@ -13,6 +13,17 @@
 		086578891D3603BC00352F26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 086578871D3603BC00352F26 /* Main.storyboard */; };
 		0865788B1D3603BC00352F26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0865788A1D3603BC00352F26 /* Assets.xcassets */; };
 		0865788E1D3603BC00352F26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0865788C1D3603BC00352F26 /* LaunchScreen.storyboard */; };
+		086578981D36170500352F26 /* HXLStoryBoardLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 086578971D36170500352F26 /* HXLStoryBoardLoader.m */; };
+		0865789C1D361F2200352F26 /* HXLHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0865789B1D361F2200352F26 /* HXLHomePageViewController.m */; };
+		086578A61D36405300352F26 /* HXLNibBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 086578A51D36405300352F26 /* HXLNibBridge.m */; };
+		086578A81D364F1A00352F26 /* HXLBannerImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 086578A71D364F1A00352F26 /* HXLBannerImageView.xib */; };
+		086578AB1D364F2D00352F26 /* HXLBannerImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 086578AA1D364F2D00352F26 /* HXLBannerImageView.m */; };
+		086578AD1D36518A00352F26 /* HXLBannerImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 086578AC1D36518A00352F26 /* HXLBannerImageCell.xib */; };
+		086578B01D36520D00352F26 /* HXLBannerImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 086578AF1D36520D00352F26 /* HXLBannerImageCell.m */; };
+		086578B51D366F8C00352F26 /* banner01.png in Resources */ = {isa = PBXBuildFile; fileRef = 086578B21D366F8C00352F26 /* banner01.png */; };
+		086578B61D366F8C00352F26 /* banner02.png in Resources */ = {isa = PBXBuildFile; fileRef = 086578B31D366F8C00352F26 /* banner02.png */; };
+		086578B71D366F8C00352F26 /* banner03.png in Resources */ = {isa = PBXBuildFile; fileRef = 086578B41D366F8C00352F26 /* banner03.png */; };
+		25952EFB71EB3B252393E0E0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B272D99433CE10D84444B487 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +37,24 @@
 		0865788A1D3603BC00352F26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0865788D1D3603BC00352F26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0865788F1D3603BC00352F26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		086578961D36170500352F26 /* HXLStoryBoardLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXLStoryBoardLoader.h; sourceTree = "<group>"; };
+		086578971D36170500352F26 /* HXLStoryBoardLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXLStoryBoardLoader.m; sourceTree = "<group>"; };
+		0865789A1D361F2200352F26 /* HXLHomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXLHomePageViewController.h; sourceTree = "<group>"; };
+		0865789B1D361F2200352F26 /* HXLHomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXLHomePageViewController.m; sourceTree = "<group>"; };
+		086578A41D36405300352F26 /* HXLNibBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HXLNibBridge.h; path = lib/HXLNibBridge/HXLNibBridge.h; sourceTree = "<group>"; };
+		086578A51D36405300352F26 /* HXLNibBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HXLNibBridge.m; path = lib/HXLNibBridge/HXLNibBridge.m; sourceTree = "<group>"; };
+		086578A71D364F1A00352F26 /* HXLBannerImageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HXLBannerImageView.xib; sourceTree = "<group>"; };
+		086578A91D364F2D00352F26 /* HXLBannerImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXLBannerImageView.h; sourceTree = "<group>"; };
+		086578AA1D364F2D00352F26 /* HXLBannerImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXLBannerImageView.m; sourceTree = "<group>"; };
+		086578AC1D36518A00352F26 /* HXLBannerImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HXLBannerImageCell.xib; sourceTree = "<group>"; };
+		086578AE1D36520D00352F26 /* HXLBannerImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXLBannerImageCell.h; sourceTree = "<group>"; };
+		086578AF1D36520D00352F26 /* HXLBannerImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXLBannerImageCell.m; sourceTree = "<group>"; };
+		086578B21D366F8C00352F26 /* banner01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = banner01.png; sourceTree = "<group>"; };
+		086578B31D366F8C00352F26 /* banner02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = banner02.png; sourceTree = "<group>"; };
+		086578B41D366F8C00352F26 /* banner03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = banner03.png; sourceTree = "<group>"; };
+		AC11CDE6DAC3FC9A27A70200 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		B272D99433CE10D84444B487 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE63458F800C5B8FE364F4B4 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25952EFB71EB3B252393E0E0 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,8 +72,11 @@
 		086578721D3603BC00352F26 = {
 			isa = PBXGroup;
 			children = (
+				086578B11D366F8100352F26 /* resource */,
 				0865787D1D3603BC00352F26 /* HXLTrip */,
 				0865787C1D3603BC00352F26 /* Products */,
+				9304AD2E18C403A9E67D6CF5 /* Pods */,
+				C6E0087F09A5A832DFEFB9D5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +91,10 @@
 		0865787D1D3603BC00352F26 /* HXLTrip */ = {
 			isa = PBXGroup;
 			children = (
+				0865789F1D363FD100352F26 /* lib */,
+				0865789D1D3639E900352F26 /* Component */,
+				086578991D361EF500352F26 /* First Page */,
+				086578951D3616DC00352F26 /* StoryBoardLoader */,
 				086578811D3603BC00352F26 /* AppDelegate.h */,
 				086578821D3603BC00352F26 /* AppDelegate.m */,
 				086578841D3603BC00352F26 /* ViewController.h */,
@@ -79,6 +116,89 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		086578951D3616DC00352F26 /* StoryBoardLoader */ = {
+			isa = PBXGroup;
+			children = (
+				086578961D36170500352F26 /* HXLStoryBoardLoader.h */,
+				086578971D36170500352F26 /* HXLStoryBoardLoader.m */,
+			);
+			name = StoryBoardLoader;
+			sourceTree = "<group>";
+		};
+		086578991D361EF500352F26 /* First Page */ = {
+			isa = PBXGroup;
+			children = (
+				0865789A1D361F2200352F26 /* HXLHomePageViewController.h */,
+				0865789B1D361F2200352F26 /* HXLHomePageViewController.m */,
+			);
+			name = "First Page";
+			sourceTree = "<group>";
+		};
+		0865789D1D3639E900352F26 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				0865789E1D3639F700352F26 /* Banner */,
+			);
+			name = Component;
+			sourceTree = "<group>";
+		};
+		0865789E1D3639F700352F26 /* Banner */ = {
+			isa = PBXGroup;
+			children = (
+				086578A71D364F1A00352F26 /* HXLBannerImageView.xib */,
+				086578A91D364F2D00352F26 /* HXLBannerImageView.h */,
+				086578AA1D364F2D00352F26 /* HXLBannerImageView.m */,
+				086578AC1D36518A00352F26 /* HXLBannerImageCell.xib */,
+				086578AE1D36520D00352F26 /* HXLBannerImageCell.h */,
+				086578AF1D36520D00352F26 /* HXLBannerImageCell.m */,
+			);
+			name = Banner;
+			sourceTree = "<group>";
+		};
+		0865789F1D363FD100352F26 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				086578A01D363FE200352F26 /* HXLNibBridge */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+		086578A01D363FE200352F26 /* HXLNibBridge */ = {
+			isa = PBXGroup;
+			children = (
+				086578A41D36405300352F26 /* HXLNibBridge.h */,
+				086578A51D36405300352F26 /* HXLNibBridge.m */,
+			);
+			name = HXLNibBridge;
+			sourceTree = "<group>";
+		};
+		086578B11D366F8100352F26 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				086578B21D366F8C00352F26 /* banner01.png */,
+				086578B31D366F8C00352F26 /* banner02.png */,
+				086578B41D366F8C00352F26 /* banner03.png */,
+			);
+			name = resource;
+			sourceTree = "<group>";
+		};
+		9304AD2E18C403A9E67D6CF5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC11CDE6DAC3FC9A27A70200 /* Pods.debug.xcconfig */,
+				BE63458F800C5B8FE364F4B4 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C6E0087F09A5A832DFEFB9D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B272D99433CE10D84444B487 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +206,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 086578921D3603BC00352F26 /* Build configuration list for PBXNativeTarget "HXLTrip" */;
 			buildPhases = (
+				8DC50819DD4FDE276AA06ECC /* Check Pods Manifest.lock */,
 				086578771D3603BC00352F26 /* Sources */,
 				086578781D3603BC00352F26 /* Frameworks */,
 				086578791D3603BC00352F26 /* Resources */,
+				B00736049B89F575D93DCA75 /* Embed Pods Frameworks */,
+				BB86E79C91D9326379A54023 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -136,22 +259,80 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				086578B71D366F8C00352F26 /* banner03.png in Resources */,
 				0865788E1D3603BC00352F26 /* LaunchScreen.storyboard in Resources */,
 				0865788B1D3603BC00352F26 /* Assets.xcassets in Resources */,
 				086578891D3603BC00352F26 /* Main.storyboard in Resources */,
+				086578AD1D36518A00352F26 /* HXLBannerImageCell.xib in Resources */,
+				086578B51D366F8C00352F26 /* banner01.png in Resources */,
+				086578B61D366F8C00352F26 /* banner02.png in Resources */,
+				086578A81D364F1A00352F26 /* HXLBannerImageView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8DC50819DD4FDE276AA06ECC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B00736049B89F575D93DCA75 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB86E79C91D9326379A54023 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		086578771D3603BC00352F26 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				086578981D36170500352F26 /* HXLStoryBoardLoader.m in Sources */,
 				086578861D3603BC00352F26 /* ViewController.m in Sources */,
+				086578AB1D364F2D00352F26 /* HXLBannerImageView.m in Sources */,
 				086578831D3603BC00352F26 /* AppDelegate.m in Sources */,
+				086578B01D36520D00352F26 /* HXLBannerImageCell.m in Sources */,
+				086578A61D36405300352F26 /* HXLNibBridge.m in Sources */,
 				086578801D3603BC00352F26 /* main.m in Sources */,
+				0865789C1D361F2200352F26 /* HXLHomePageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +442,7 @@
 		};
 		086578931D3603BC00352F26 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC11CDE6DAC3FC9A27A70200 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HXLTrip/Info.plist;
@@ -272,6 +454,7 @@
 		};
 		086578941D3603BC00352F26 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE63458F800C5B8FE364F4B4 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HXLTrip/Info.plist;
@@ -300,6 +483,7 @@
 				086578941D3603BC00352F26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

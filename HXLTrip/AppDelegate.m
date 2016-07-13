@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "HXLStoryBoardLoader.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    [self setupToolBar];
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
@@ -40,6 +45,33 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+- (void)setupToolBar{
+    UITabBarController* tbvc = [UITabBarController new];
+    
+    UIViewController* vc1 = [UIViewController new];
+    UIViewController* homepage = HXLShortcutViewController(@"HXLHomePageViewController",@"Main", nil);
+    vc1 = homepage;
+    vc1.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"vc1" image:nil selectedImage:nil];
+    vc1.view.backgroundColor = [UIColor redColor];
+    
+    UIViewController* vc2 = [UIViewController new];
+    vc2.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"vc2" image:nil selectedImage:nil];
+    vc2.view.backgroundColor = [UIColor greenColor];
+    
+    UIViewController* vc3 = [UIViewController new];
+    vc3.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"vc3" image:nil selectedImage:nil];
+    vc3.view.backgroundColor = [UIColor yellowColor];
+    
+    UIViewController* vc4 = [UIViewController new];
+    vc4.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"vc4" image:nil selectedImage:nil];
+    vc4.view.backgroundColor = [UIColor blueColor];
+    
+    tbvc.viewControllers = @[vc1, vc2, vc3,vc4];
+    tbvc.selectedIndex = 0;
+    
+    self.window.rootViewController = tbvc;
 }
 
 @end
