@@ -1,4 +1,5 @@
 PODS:
+  - MJRefresh (3.1.10)
   - ReactiveCocoa (2.5):
     - ReactiveCocoa/UI (= 2.5)
   - ReactiveCocoa/Core (2.5):
@@ -11,10 +12,12 @@ PODS:
   - SDWebImage/Core (3.8.1)
 
 DEPENDENCIES:
+  - MJRefresh (~> 3.1.0)
   - ReactiveCocoa (~> 2.5)
   - SDWebImage (~> 3.8.0)
 
 SPEC CHECKSUMS:
+  MJRefresh: bb72948c985914b0b5cecac573a2c69a8915fb02
   ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
   SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
 

@@ -20,9 +20,10 @@
 		086578AB1D364F2D00352F26 /* HXLBannerImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 086578AA1D364F2D00352F26 /* HXLBannerImageView.m */; };
 		086578AD1D36518A00352F26 /* HXLBannerImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 086578AC1D36518A00352F26 /* HXLBannerImageCell.xib */; };
 		086578B01D36520D00352F26 /* HXLBannerImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 086578AF1D36520D00352F26 /* HXLBannerImageCell.m */; };
-		086578B51D366F8C00352F26 /* banner01.png in Resources */ = {isa = PBXBuildFile; fileRef = 086578B21D366F8C00352F26 /* banner01.png */; };
-		086578B61D366F8C00352F26 /* banner02.png in Resources */ = {isa = PBXBuildFile; fileRef = 086578B31D366F8C00352F26 /* banner02.png */; };
-		086578B71D366F8C00352F26 /* banner03.png in Resources */ = {isa = PBXBuildFile; fileRef = 086578B41D366F8C00352F26 /* banner03.png */; };
+		086578BC1D3733AB00352F26 /* banner01.png in Resources */ = {isa = PBXBuildFile; fileRef = 086578B91D3733AB00352F26 /* banner01.png */; };
+		086578BD1D3733AB00352F26 /* banner02.png in Resources */ = {isa = PBXBuildFile; fileRef = 086578BA1D3733AB00352F26 /* banner02.png */; };
+		086578BE1D3733AB00352F26 /* banner03.png in Resources */ = {isa = PBXBuildFile; fileRef = 086578BB1D3733AB00352F26 /* banner03.png */; };
+		086578D11D37660D00352F26 /* UITableView+HXLNibCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 086578D01D37660D00352F26 /* UITableView+HXLNibCell.m */; };
 		25952EFB71EB3B252393E0E0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B272D99433CE10D84444B487 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -49,9 +50,11 @@
 		086578AC1D36518A00352F26 /* HXLBannerImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HXLBannerImageCell.xib; sourceTree = "<group>"; };
 		086578AE1D36520D00352F26 /* HXLBannerImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXLBannerImageCell.h; sourceTree = "<group>"; };
 		086578AF1D36520D00352F26 /* HXLBannerImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXLBannerImageCell.m; sourceTree = "<group>"; };
-		086578B21D366F8C00352F26 /* banner01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = banner01.png; sourceTree = "<group>"; };
-		086578B31D366F8C00352F26 /* banner02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = banner02.png; sourceTree = "<group>"; };
-		086578B41D366F8C00352F26 /* banner03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = banner03.png; sourceTree = "<group>"; };
+		086578B91D3733AB00352F26 /* banner01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = banner01.png; path = Resource/banner01.png; sourceTree = "<group>"; };
+		086578BA1D3733AB00352F26 /* banner02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = banner02.png; path = Resource/banner02.png; sourceTree = "<group>"; };
+		086578BB1D3733AB00352F26 /* banner03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = banner03.png; path = Resource/banner03.png; sourceTree = "<group>"; };
+		086578CF1D37660D00352F26 /* UITableView+HXLNibCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITableView+HXLNibCell.h"; path = "Category/UITableView/UITableView+HXLNibCell.h"; sourceTree = "<group>"; };
+		086578D01D37660D00352F26 /* UITableView+HXLNibCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITableView+HXLNibCell.m"; path = "Category/UITableView/UITableView+HXLNibCell.m"; sourceTree = "<group>"; };
 		AC11CDE6DAC3FC9A27A70200 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		B272D99433CE10D84444B487 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE63458F800C5B8FE364F4B4 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -72,7 +75,6 @@
 		086578721D3603BC00352F26 = {
 			isa = PBXGroup;
 			children = (
-				086578B11D366F8100352F26 /* resource */,
 				0865787D1D3603BC00352F26 /* HXLTrip */,
 				0865787C1D3603BC00352F26 /* Products */,
 				9304AD2E18C403A9E67D6CF5 /* Pods */,
@@ -91,10 +93,11 @@
 		0865787D1D3603BC00352F26 /* HXLTrip */ = {
 			isa = PBXGroup;
 			children = (
-				0865789F1D363FD100352F26 /* lib */,
+				086578CD1D37656E00352F26 /* Category */,
 				0865789D1D3639E900352F26 /* Component */,
-				086578991D361EF500352F26 /* First Page */,
-				086578951D3616DC00352F26 /* StoryBoardLoader */,
+				0865789F1D363FD100352F26 /* Lib */,
+				086578D21D37662A00352F26 /* Page */,
+				086578B81D37338900352F26 /* Resource */,
 				086578811D3603BC00352F26 /* AppDelegate.h */,
 				086578821D3603BC00352F26 /* AppDelegate.m */,
 				086578841D3603BC00352F26 /* ViewController.h */,
@@ -137,6 +140,7 @@
 		0865789D1D3639E900352F26 /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				086578951D3616DC00352F26 /* StoryBoardLoader */,
 				0865789E1D3639F700352F26 /* Banner */,
 			);
 			name = Component;
@@ -155,12 +159,12 @@
 			name = Banner;
 			sourceTree = "<group>";
 		};
-		0865789F1D363FD100352F26 /* lib */ = {
+		0865789F1D363FD100352F26 /* Lib */ = {
 			isa = PBXGroup;
 			children = (
 				086578A01D363FE200352F26 /* HXLNibBridge */,
 			);
-			name = lib;
+			name = Lib;
 			sourceTree = "<group>";
 		};
 		086578A01D363FE200352F26 /* HXLNibBridge */ = {
@@ -172,14 +176,39 @@
 			name = HXLNibBridge;
 			sourceTree = "<group>";
 		};
-		086578B11D366F8100352F26 /* resource */ = {
+		086578B81D37338900352F26 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				086578B21D366F8C00352F26 /* banner01.png */,
-				086578B31D366F8C00352F26 /* banner02.png */,
-				086578B41D366F8C00352F26 /* banner03.png */,
+				086578B91D3733AB00352F26 /* banner01.png */,
+				086578BA1D3733AB00352F26 /* banner02.png */,
+				086578BB1D3733AB00352F26 /* banner03.png */,
 			);
-			name = resource;
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		086578CD1D37656E00352F26 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				086578CE1D37658E00352F26 /* UITableView */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		086578CE1D37658E00352F26 /* UITableView */ = {
+			isa = PBXGroup;
+			children = (
+				086578CF1D37660D00352F26 /* UITableView+HXLNibCell.h */,
+				086578D01D37660D00352F26 /* UITableView+HXLNibCell.m */,
+			);
+			name = UITableView;
+			sourceTree = "<group>";
+		};
+		086578D21D37662A00352F26 /* Page */ = {
+			isa = PBXGroup;
+			children = (
+				086578991D361EF500352F26 /* First Page */,
+			);
+			name = Page;
 			sourceTree = "<group>";
 		};
 		9304AD2E18C403A9E67D6CF5 /* Pods */ = {
@@ -259,13 +288,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				086578B71D366F8C00352F26 /* banner03.png in Resources */,
+				086578BE1D3733AB00352F26 /* banner03.png in Resources */,
 				0865788E1D3603BC00352F26 /* LaunchScreen.storyboard in Resources */,
 				0865788B1D3603BC00352F26 /* Assets.xcassets in Resources */,
 				086578891D3603BC00352F26 /* Main.storyboard in Resources */,
 				086578AD1D36518A00352F26 /* HXLBannerImageCell.xib in Resources */,
-				086578B51D366F8C00352F26 /* banner01.png in Resources */,
-				086578B61D366F8C00352F26 /* banner02.png in Resources */,
+				086578BC1D3733AB00352F26 /* banner01.png in Resources */,
+				086578BD1D3733AB00352F26 /* banner02.png in Resources */,
 				086578A81D364F1A00352F26 /* HXLBannerImageView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -325,6 +354,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				086578D11D37660D00352F26 /* UITableView+HXLNibCell.m in Sources */,
 				086578981D36170500352F26 /* HXLStoryBoardLoader.m in Sources */,
 				086578861D3603BC00352F26 /* ViewController.m in Sources */,
 				086578AB1D364F2D00352F26 /* HXLBannerImageView.m in Sources */,
@@ -447,6 +477,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = HXLTrip/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.carrot.baidao.HXLTrip;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -460,6 +491,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = HXLTrip/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.carrot.baidao.HXLTrip;
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -57,9 +57,9 @@
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell* cell = [tableView dequeueReusableCellWithIdentifier:@"cell"];
+    UITableViewCell* cell = [tableView dequeueReusableCellWithIdentifier:@"cell1"];
     if (!cell) {
-        cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"cell"];
+        cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"cell1"];
     }
     cell.textLabel.text = [NSString stringWithFormat:@"%ld Row", (long)indexPath.row ];
     return cell;
